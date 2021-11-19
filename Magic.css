@@ -1,0 +1,291 @@
+body{
+     background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/61590b37136421.5735ae02e1740.gif");
+     background-attachment: fixed;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+    
+div.coso{
+  background-color: rgb(63, 28, 102);
+  width: 700px;
+  height: 300px;
+  margin-top: 180px;
+  position: absolute;
+  padding: 70px;
+}
+
+
+@-webkit-keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+@keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+
+
+.coso:hover
+{
+-webkit-animation: swing 1s ease;
+animation: swing 1s ease;
+-webkit-animation-iteration-count: 1;
+animation-iteration-count: 1;
+}
+
+div.letras{
+
+     width: 900px;
+     height: 100px;
+     position: absolute;
+     margin-left: -10px;
+     margin-top:-30px;
+     
+}
+
+    .text { 
+        display: none;
+        
+      }
+      &.go {}
+        .text {     
+          font-family: Arial, sans-serif;
+          font-size: 20px;
+          text-transform: uppercase;
+          display: block;
+          width: 10px;
+        }
+        .text-stroke {
+          fill: none;
+          stroke: #7550db;
+          stroke-width: 2.8px;
+          stroke-dashoffset: -900;
+          stroke-dasharray: 900;
+          stroke-linecap: butt;
+          stroke-linejoin: round;
+          animation: dash 2.5s ease-in-out forwards;
+         /* animation-iteration-count: infinite;*/
+        }
+        .text-stroke:nth-child(2) {
+          animation-delay: .3s;
+        }
+        .text-stroke:nth-child(3) {
+          animation-delay: .9s;
+        }
+        .text-stroke-2 {
+          stroke: rgb(255, 255, 255);
+          animation-delay: 1.2s;
+        }
+        .text-stroke:nth-child(5) {
+          animation-delay: 1.5s;
+        }
+        .text-stroke:nth-child(6) {
+          animation-delay: 1.8s;
+        }
+      
+    
+    @keyframes dash {
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    
+    
+    
+img.yoyo{
+          width: 400px;
+          height: 300px;
+          margin-left: -550px;
+          margin-top: 25px;
+          position: absolute;
+
+
+}
+
+.boton_personalizado{
+  text-decoration: none;
+  font-family: raleway;
+  padding: 20px;
+  width: 80px;
+  height: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #db3998;
+  background-color: #fcfcfc;
+  border-radius: 6px;
+  border: 2px solid #b000a7;
+  position: absolute;
+  margin-left: 647px;
+  margin-top: 380px;
+}
+
+
+nav{
+    text-align: center;
+    
+
+   }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
+p.p1{
+     font-family: 'Raleway';
+     color: rgb(216, 203, 203);
+     margin-left: 1100px;
+     margin-top: 30px;
+     font-size: 20px;
+     position: absolute;
+    }
+
+p.p1:hover{
+           color: rgb(255, 255, 255);
+           text-shadow: 0px 0px 5px white;
+           
+          }
+
+p.p2{
+     font-family: 'Raleway';
+     color: rgb(216, 203, 203);
+     margin-left: 1280px;
+     margin-top: 30px;
+     font-size: 20px;
+     position: absolute;
+    }
+
+p.p2:hover{
+           color: rgb(255, 255, 255);
+           text-shadow: 0px 0px 5px white;
+          }
+
+
+
+img.fb{
+       width: 30px;
+       height: 30px;
+       position: fixed;
+       margin-top: 510px;
+       margin-left: 1437px;
+       position: fixed;
+      }
+
+p.fb{
+     color:whitesmoke;
+     font-size: 20px;
+     font-family: raleway;
+     margin-top: 560px;
+     margin-left: 1410px;
+     position: fixed;
+    }
+
+    p.fb:hover{
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 5px white;
+      
+     }
+
+img.ig{
+       width: 30px;
+       height: 30px;
+       position: fixed;
+       margin-top: 600px;
+       margin-left: 1435px;
+
+      }
+
+p.ig{
+     color: whitesmoke;
+     font-size: 20px;
+     font-family: raleway;
+     margin-top: 636px;
+     margin-left: 1410px;
+     position: fixed;
+    }
+
+    p.ig:hover{
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 5px white;
+      
+     }
+
+     img.in{
+      width: 30px;
+      height: 30px;
+      position: fixed;
+      margin-top: 425px;
+      margin-left: 1435px;
+
+     }
+
+p.in{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: raleway;
+    margin-top: 476px;
+    margin-left: 1415px;
+    position: fixed;
+   }
+
+   p.in:hover{
+     color: rgb(255, 255, 255);
+     text-shadow: 0px 0px 5px white;
+     
+    }
